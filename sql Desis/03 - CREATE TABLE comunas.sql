@@ -8,4 +8,3 @@ CREATE TABLE comunas (
 
 #DROP TABLE comunas;
 
-SELECT * FROM comunas;

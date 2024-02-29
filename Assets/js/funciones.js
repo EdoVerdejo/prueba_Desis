@@ -127,6 +127,7 @@ function registrarPersona(e) {
 
     if(nombreApellido.value == ""){
         nombreApellido.classList.add("is-invalid"); 
+        alert('El nombre y apellido no debe estar vacío.');
         return;
     }
 
@@ -183,6 +184,7 @@ function registrarPersona(e) {
 
     if(checkboxs.filter(":checked").length < 2){
         alert(`"Cómo se enteró de nosotros": Debe al menos elegir dos opciones.`);
+        return;
     }
     
     const url = base_url + "Personas/insert";
@@ -199,10 +201,11 @@ function registrarPersona(e) {
                 alert("Voto registrado con éxito.");
             }else{
                 alert("Error al registrar voto.");
+                return;
             }
         }
     }
-
+    alert("Voto registrado con éxito.");
     id_persona = buscarRut(rut.value)["persona"]["ID"];
 
     $("input[name='checkComo']:checked").each(function(){

@@ -5,5 +5,3 @@ CREATE TABLE regiones (
 ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4;
 
 #DROP TABLE regiones;
-
-Select * FROM Regiones;

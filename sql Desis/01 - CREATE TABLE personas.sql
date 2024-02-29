@@ -14,7 +14,3 @@ CREATE TABLE personas (
 );
 ##DROP TABLE if exists personas;
 COMMIT;
-
-
-SELECT * FROM personas;
-DELETE FROM personas;
