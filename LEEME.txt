@@ -1,0 +1,7 @@
+Versión PHP: PHP 8.1.0
+Versión Mysql: 8.0.33
+
+
+Para cofigurar las credenciales para acceder a la base de datos, se deben ingresar en el archivo PruebaDesis.INI que está en la raíz
+Para cofigurar los elementos de la base de datos, se deben ejecutar los archivos de la carpeta en raíz "sql Desis" en el ordne enumerado.
+Una vez instalado el proyecto en el servidor, acceder al formulario con la url http//:[host del servidor]//prueba_Desis/
